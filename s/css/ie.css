@@ -1,7 +1,0 @@
-form .input-group .input-tooltip {
-  display: none;
-}
-form .input-group .input-tooltip p {
-  border-right: 2px solid #a18545;
-  border-bottom: 2px solid #a18545;
-}
