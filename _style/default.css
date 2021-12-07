@@ -1,0 +1,148 @@
+/* Style sheet */
+
+/* Body attributes */
+
+body {	
+	font-size:10px;	
+	font-family: Arial, verdana;	
+	color:#000000;	
+	background-color:#FFFFFF;	
+	margin:0px;	
+	margin-top:0px;
+	background: url(../_images/cash_tile.gif);
+	text-align: center;
+}
+
+
+/* The main table */
+TD {font-family: Arial, verdana, sans-serif; font-size: 12px; color: #000000; background-color: #FFFFFF;}
+TD.transparent {background-color: transparent;}
+TD.black {background-color: #000000;}
+
+/* This is the main link style */
+a { text-decoration: underline; font-weight: bold; }
+a:link		{ 
+	color: #000000; background-color: transparent; 
+}
+a:visited	{ color: #000000; background-color: transparent; }
+a:active	{ color: #999999; background-color: transparent; }
+a:hover		{ color: #999999; background-color: transparent; }
+
+a.small			{ font-size: 11px; text-decoration: underline; font-weight: normal; }
+a.small:link	{ color: #000000; background-color: transparent; }
+a.small:visited	{ color: #000000; background-color: transparent; }
+a.small:active	{ color: #999999; background-color: transparent; }
+a.small:hover	{ color: #999999; background-color: transparent; }
+a.red           { color: #cc0000; background-color: transparent; }
+
+
+
+.main_table {
+    width: 785px;
+    margin-top: 63px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CSS HEADERS */
+.replace { display: block; margin: 5px 0px 10px 0px;}
+.replace span { display: none;}
+
+.howrichareyou {
+    width: 259px;
+    height: 24px;
+    background: url(../_images/title_howrichareyou.gif) no-repeat top left;
+} 
+
+
+.infobox1 {
+    padding: 4px;
+}
+.infobox2 {
+    padding: 4px;
+    background: #ff0;
+}
+
+table.infotable{
+    border:0px solid red;
+    width:500px;
+    margin:20px 0 20px 0;
+}
+
+#nbrRichest1{
+	color: #c00;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+#scaleholder {
+    position: relative; 
+    display:block; 
+    width: 779px;
+    height: 124px;
+    margin:0px;
+    padding: 0px;
+}
+
+#scaleholder img#scaleimg {
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    width: 779px;
+    height: 124px;
+    z-index:20;
+}
+
+#scaleholder img#redman {
+    position: absolute; 
+    top: 16px;
+    left: 21px;
+    width: 40px;
+    height: 57px;
+    z-index:21;
+} 
+
+
+/*  DOANTE BUTTON */
+div#donate_btn, div#donate_btn a {
+	width:321px;
+	height:88px;
+	display: block;
+}
+
+div#donate_btn a em {
+	display: none;
+}
+
+div#donate_btn a {
+	background: url(../_images/donate_btn.gif) no-repeat top left;
+}
+div#donate_btn a:hover {
+	background: url(../_images/donate_btn.gif) no-repeat bottom left;
+}
+
+/* CSS definitions for fonts */
+.black 			      { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; }
+.blackheader	  { font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: #000000; font-weight: bold; }
+.blackbig	  { font-family: Arial, Helvetica, sans-serif; font-size: 18px; color: #000000; font-weight: bold; }
+.blackheaderthin  { font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: #000000; font-weight: normal; }
+.blackmedium	  { font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #000000; font-weight: bold; }
+.blacksmall		  { font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; }
+.bodytxt		      { font-family: Arial, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; }
+.bodytxtbold	      { font-family: Arial, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; font-weight: bold; }
+.red 			{ font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #cc0000; }
+.redheader	  	{ font-family: Arial, Helvetica, sans-serif; font-size: 20px; color: #cc0000; font-weight: bold; }
+.redbig	  	{ font-family: Arial, Helvetica, sans-serif; font-size: 18px; color: #cc0000; font-weight: bold; }
+.redmedium 		{ font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #cc0000; font-weight: bold; }
+.yellowback     { font-family: Arial, Helvetica, sans-serif; font-size: 12px; background: #ffff00; padding: 2px;}
+
+/* Length of the form drop downs */
+.query_style 	{ font-size: 11px; font-family: verdana, geneva, arial, sans-serif; width: 156px; margin-bottom: 0; }
+.search_style 	{ font-size: 12px; font-family: arial, verdana, sans-serif; width: 134px; margin-bottom: 0; }
+
+/* input */
+input.dec 		{ font-size: 10px;color:#000;font-family: verdana,arial;background-color: #ffffff;border: 1px solid #ff0000; }
+input		 	{ font-size: 10px; background-color: white;border: 1px solid;font-weight: bold; }
+
+/* select */
+select 			{ font-size: 10px;font-family: verdana,arial; }
